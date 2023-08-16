@@ -97,7 +97,7 @@ public class ExcelReaderService {
 
 	public List<SalesRecord> readLargeExcelSalesRecord(MultipartFile multipartFile) throws IOException {
 
-		System.out.println("starting to file reader.......");
+		System.out.println("starting to file readLargeExcelSalesRecord.......");
 		long start = System.currentTimeMillis();
 		long start1 = System.currentTimeMillis();
 		List<SalesRecord> listSalesRecord = new ArrayList<>();
